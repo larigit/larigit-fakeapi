@@ -1,103 +1,105 @@
-[
-    {
-        "id":1,
-        "name": "Sabor Nordestino",
-        "categoria": "comida nordestina",
-        "pratos": [
-            {
-                "id": 1,
-                "name": "Tapioca",
-                "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/07/comidas-tipicas-nordeste00002-820x546.jpg",
-                "price": "10,00"
-            },
-            {
-                "id": 2,
-                "name": "Acarajé",
-                "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/07/comidas-tipicas-nordeste00001-820x615.jpg",
-                "price": "14,99"
-            },
-            {
-                "id": 3,
-                "name": "Vatapá",
-                "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/07/comidas-tipicas-nordeste-00004-820x403.jpg",
-                "price": "19,99"
-            },
-            {
-                "id": 4,
-                "name": "Moqueca",
-                "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2018/01/moqueca-820x547.jpg",
-                "price": "24,99"
-            },
-            {
-                "id": 5,
-                "name": "Buchada de Bode",
-                "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/07/comidas-tipicas-nordeste-2-820x546.jpg",
-                "price": "24,99"
-            }
-        ]
-    },
-    {
-        "id":2,
-        "name": "Doces da Lari",
-        "categoria": "Sobremesas",
-        "pratos": [
-            {
-                "id": 1,
-                "name": "Pudim",
-                "image": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/05/30/776807515-pudim-maria-mole-leite-condensado.jpg",
-                "price": "29,99"
-            },
-            {
-                "id": 2,
-                "name": "Rocambole de Churros",
-                "image": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/05/30/599273716-rocambole-churros.jpg",
-                "price": "29,99"
-            },
-            {
-                "id": 3,
-                "name": "Petit gâteau",
-                "image": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/05/30/2004576095-petit-gateau-de-liquidificador-32113.jpg",
-                "price": "9,99"
-            },
-            {
-                "id": 4,
-                "name": "Creme de brigadeiro com morango",
-                "image": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/05/30/1502840523-creme-brigadeiro-morango.jpg",
-                "price": "14,90"
-            }
-        ]
-    },
-    {
-        "id":3,
-        "name": "Dona Muchacha",
-        "categoria": "Comida Mexicana",
-        "pratos": [
-            {
-                "id": 1,
-                "name": "Guacamole",
-                "image": "https://img.imageboss.me/consul/cdn/animation:true/wp-content/uploads/2021/01/9-receitas-de-comida-mexicana-para-fazer-em-casa-1.jpg",
-                "price": "14,90"
-            },
-            {
-                "id": 2,
-                "name": "Tacos",
-                "image": "https://img.imageboss.me/consul/cdn/animation:true/wp-content/uploads/2021/01/9-receitas-de-comida-mexicana-para-fazer-em-casa2.jpg",
-                "price": "8,90"
-            },
-            {
-                "id": 3,
-                "name": "Nachos",
-                "image": "https://img.imageboss.me/consul/cdn/animation:true/wp-content/uploads/2021/01/9-receitas-de-comida-mexicana-para-fazer-em-casa3.jpg",
-                "price": "21,90"
-            },
-            {
-                "id": 4,
-                "name": "Feijão mexicano",
-                "image": "https://img.imageboss.me/consul/cdn/animation:true/wp-content/uploads/2021/01/9-receitas-de-comida-mexicana-para-fazer-em-casa4.jpg",
-                "price": "32,90"
-            }
-        ]
-    }
-    
-    
-]
+{
+    "restaurantes":[
+        {
+            "id":1,
+            "name": "Sabor Nordestino",
+            "categoria": "comida nordestina",
+            "pratos": [
+                {
+                    "id": 1,
+                    "name": "Tapioca",
+                    "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/07/comidas-tipicas-nordeste00002-820x546.jpg",
+                    "price": "10,00"
+                },
+                {
+                    "id": 2,
+                    "name": "Acarajé",
+                    "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/07/comidas-tipicas-nordeste00001-820x615.jpg",
+                    "price": "14,99"
+                },
+                {
+                    "id": 3,
+                    "name": "Vatapá",
+                    "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/07/comidas-tipicas-nordeste-00004-820x403.jpg",
+                    "price": "19,99"
+                },
+                {
+                    "id": 4,
+                    "name": "Moqueca",
+                    "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2018/01/moqueca-820x547.jpg",
+                    "price": "24,99"
+                },
+                {
+                    "id": 5,
+                    "name": "Buchada de Bode",
+                    "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/07/comidas-tipicas-nordeste-2-820x546.jpg",
+                    "price": "24,99"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name": "Doces da Lari",
+            "categoria": "Sobremesas",
+            "pratos": [
+                {
+                    "id": 1,
+                    "name": "Pudim",
+                    "image": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/05/30/776807515-pudim-maria-mole-leite-condensado.jpg",
+                    "price": "29,99"
+                },
+                {
+                    "id": 2,
+                    "name": "Rocambole de Churros",
+                    "image": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/05/30/599273716-rocambole-churros.jpg",
+                    "price": "29,99"
+                },
+                {
+                    "id": 3,
+                    "name": "Petit gâteau",
+                    "image": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/05/30/2004576095-petit-gateau-de-liquidificador-32113.jpg",
+                    "price": "9,99"
+                },
+                {
+                    "id": 4,
+                    "name": "Creme de brigadeiro com morango",
+                    "image": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/05/30/1502840523-creme-brigadeiro-morango.jpg",
+                    "price": "14,90"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name": "Dona Muchacha",
+            "categoria": "Comida Mexicana",
+            "pratos": [
+                {
+                    "id": 1,
+                    "name": "Guacamole",
+                    "image": "https://img.imageboss.me/consul/cdn/animation:true/wp-content/uploads/2021/01/9-receitas-de-comida-mexicana-para-fazer-em-casa-1.jpg",
+                    "price": "14,90"
+                },
+                {
+                    "id": 2,
+                    "name": "Tacos",
+                    "image": "https://img.imageboss.me/consul/cdn/animation:true/wp-content/uploads/2021/01/9-receitas-de-comida-mexicana-para-fazer-em-casa2.jpg",
+                    "price": "8,90"
+                },
+                {
+                    "id": 3,
+                    "name": "Nachos",
+                    "image": "https://img.imageboss.me/consul/cdn/animation:true/wp-content/uploads/2021/01/9-receitas-de-comida-mexicana-para-fazer-em-casa3.jpg",
+                    "price": "21,90"
+                },
+                {
+                    "id": 4,
+                    "name": "Feijão mexicano",
+                    "image": "https://img.imageboss.me/consul/cdn/animation:true/wp-content/uploads/2021/01/9-receitas-de-comida-mexicana-para-fazer-em-casa4.jpg",
+                    "price": "32,90"
+                }
+            ]
+        }
+        
+        
+    ]
+}
